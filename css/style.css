@@ -1,0 +1,8 @@
+.my_col {
+    height: calc(100vh - 48px * 2);
+    overflow-y: auto;
+}
+
+body, .my_col, #password {
+    background-image: var(--bs-gradient);
+}
